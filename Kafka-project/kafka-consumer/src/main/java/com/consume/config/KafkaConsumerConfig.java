@@ -38,7 +38,6 @@ public class KafkaConsumerConfig {
 		return factory;
 	}
 	
-	
 	// config for our json object 
 	@Bean
 	public ConsumerFactory<String, User> userConsumerFactory() {
